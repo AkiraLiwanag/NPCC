@@ -4,7 +4,7 @@ import datetime
 
 h = open("H_LOG.txt", "a", buffering=1)
 ct = datetime.datetime.now()
-version = "1.0 ~"
+version = "2.0 ~"
 logon = "Logon: "
 print(version, logon, ct)
 print(version, logon, ct, file=h)
